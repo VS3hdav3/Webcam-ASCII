@@ -25,7 +25,10 @@ The `main.py` script performs the following tasks:
 - The frames are displayed in real-time in an OpenCV window and saved to a video file (`video.mp4`) using `cv2.VideoWriter`.
 - The program continues running until the user presses the "q" key.
 
-![Video GIF](./video.gif)
+<div align="center">
+    <img src="./video.gif" alt="Video GIF" />
+    <p>Here is the captured video as a GIF</p>
+</div>
 
 ## **Libraries Used**
 - **OpenCV (`cv2`)**: Handles webcam video capture and image processing.

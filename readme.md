@@ -35,7 +35,7 @@ The `main.py` script performs the following tasks:
 - **Pillow (`PIL`)**: Used for image manipulation, including resizing and drawing text.
 - **Numpy**: Used to manipulate image arrays for processing and display.
 
-## **Gameplay Dynamics**
+## **Functionality**
 1. **Live Video Capture:** The program uses `cv2.VideoCapture(0)` to capture frames from the webcam.
 2. **Grayscale Conversion:** Each frame is converted into grayscale, and pixel brightness values are used to select an appropriate ASCII character from the `ASCII_chars` array.
 3. **Resize and Scaling:** The captured frames are resized to fit the ASCII representation, with each character's width and height adjusted for display.
